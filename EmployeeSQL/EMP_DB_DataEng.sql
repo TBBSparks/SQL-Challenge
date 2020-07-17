@@ -24,7 +24,7 @@ FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no;
 
 --Task_2
 SELECT first_name, last_name, hire_date 
-FROM employees WHERE hire_date BETWEEN '1986-01-01' AND '1987-01-01';
+FROM employees WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
 --Task_3
 SELECT departments.dept_no, departments.dept_name, dept_manager.emp_no, employees.last_name, employees.first_name
